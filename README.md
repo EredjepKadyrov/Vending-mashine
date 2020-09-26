@@ -4,8 +4,22 @@ A state machine is a behavior model. It consists of a finite number of states an
 machine (FSM). Based on the current state and a given input the machine performs state transitions and produces
 outputs.
 
+##  - Process Description
+The following peripherals was used in the top entity:
 
 
+| First Header  | Second Header | Second Header                 |
+| ------------- | ------------- | ----------------------------- |
+| CLOCK 50      | in            | std logic                     |
+| SW            | in            | std logic vector(9 downto 0)  |
+| KEY           | in            | std logic vector(3 downto 0)  |
+| LEDR          | out           | std logic vector(9 downto 0)  |
+| HEX0          | out           | std logic vector(0 to 6)      |
+| HEX1          | out           | std logic vector(0 to 6)      |
+| HEX2          | out           | std logic vector(0 to 6)      |
+| HEX3          | out           | std logic vector(0 to 6)      |
+| HEX4          | out           | std logic vector(0 to 6)      |
+| HEX5          | out           | std logic vector(0 to 6)      |
 
 
 
