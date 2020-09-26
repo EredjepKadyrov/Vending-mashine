@@ -8,18 +8,33 @@ outputs.
 The following peripherals was used in the top entity:
 
 
-| First Header  | Second Header | Second Header                 |
+| name          | in/out        | signal  vector                |
 | ------------- | ------------- | ----------------------------- |
-| CLOCK 50      | in            | std logic                     |
-| SW            | in            | std logic vector(9 downto 0)  |
-| KEY           | in            | std logic vector(3 downto 0)  |
-| LEDR          | out           | std logic vector(9 downto 0)  |
-| HEX0          | out           | std logic vector(0 to 6)      |
-| HEX1          | out           | std logic vector(0 to 6)      |
-| HEX2          | out           | std logic vector(0 to 6)      |
-| HEX3          | out           | std logic vector(0 to 6)      |
-| HEX4          | out           | std logic vector(0 to 6)      |
-| HEX5          | out           | std logic vector(0 to 6)      |
+| CLOCK_50      | in            | std_logic                     |
+| SW            | in            | std_logic_vector(9 downto 0)  |
+| KEY           | in            | std_logic_vector(3 downto 0)  |
+| LEDR          | out           | std_logic_vector(9 downto 0)  |
+| HEX0          | out           | std_logic_vector(0 to 6)      |
+| HEX1          | out           | std_logic_vector(0 to 6)      |
+| HEX2          | out           | std_logic_vector(0 to 6)      |
+| HEX3          | out           | std_logic_vector(0 to 6)      |
+| HEX4          | out           | std_logic_vector(0 to 6)      |
+| HEX5          | out           | std_logic_vector(0 to 6)      |
+
+
+Table below explains input peripherals connection with signals for ```menu selection, clock, address memory, money
+insertion and reset buttons```.
+
+| name             | signal  vector   |
+| ---------------- | ---------------- |
+| sl_resetn_int    | SW(9)            |
+| slv_moneyin      | SW(3 downto 0)   |
+| slv_address      | SW(8 downto 4)   |
+| slv_clock_int    | CLOCK_50         |
+| slv_selection_int| KEY (3 downto 0) |
+
+To create the vending machine, was created a new Quartus project and named it after main entity ```e_my_coffee_maker_FSM```.
+In main entity six following entities have been defined as components.
 
 
 
