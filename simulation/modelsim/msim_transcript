@@ -1,0 +1,578 @@
+# Reading C:/FPGA/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do e_my_coffee_maker_FSM_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/FPGA/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_my_coffee_maker_FSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:00 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_my_coffee_maker_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_coffee_maker_FSM
+# -- Compiling architecture a_my_coffee_maker_FSM of e_my_coffee_maker_FSM
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_modulo_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:01 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_modulo_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_modulo_counter
+# -- Compiling architecture a_modulo_counter of e_modulo_counter
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_ram32x4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:01 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_ram32x4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity e_ram32x4
+# -- Compiling architecture SYN of e_ram32x4
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_add_two_numbers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:01 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_add_two_numbers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_add_two_numbers
+# -- Compiling architecture a_add_two_numbers of e_add_two_numbers
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_lmp_count.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:01 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_lmp_count.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_lmp_count
+# -- Compiling architecture SYN of e_lmp_count
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_hex7seg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:01 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_hex7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_hex7seg
+# -- Compiling architecture a_hex7seg of e_hex7seg
+# End time: 21:38:01 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_add_two_numbers.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:09 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_add_two_numbers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_add_two_numbers
+# -- Compiling architecture a_add_two_numbers of e_add_two_numbers
+# End time: 21:38:09 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_fsmdisplay.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:10 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_fsmdisplay.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_fsmdisplay
+# -- Compiling architecture a_fsmdisplay of e_fsmdisplay
+# End time: 21:38:10 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_hex7seg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:11 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_hex7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_hex7seg
+# -- Compiling architecture a_hex7seg of e_hex7seg
+# End time: 21:38:11 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_lmp_count.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:12 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_lmp_count.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_lmp_count
+# -- Compiling architecture SYN of e_lmp_count
+# End time: 21:38:12 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_modulo_counter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:13 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_modulo_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_modulo_counter
+# -- Compiling architecture a_modulo_counter of e_modulo_counter
+# End time: 21:38:13 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_ram32x4.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:14 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_ram32x4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity e_ram32x4
+# -- Compiling architecture SYN of e_ram32x4
+# End time: 21:38:14 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_my_coffee_maker_FSM.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:14 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_my_coffee_maker_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_coffee_maker_FSM
+# -- Compiling architecture a_my_coffee_maker_FSM of e_my_coffee_maker_FSM
+# End time: 21:38:14 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:17 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity e_my_coffee_maker_FSM_vhd_tst
+# -- Compiling architecture e_my_coffee_maker_FSM_arch of e_my_coffee_maker_FSM_vhd_tst
+# ** Warning: C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht(80): (vcom-1236) Shared variables must be of a protected type.
+# ** Warning: C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht(81): (vcom-1236) Shared variables must be of a protected type.
+# End time: 21:38:17 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim work.e_my_coffee_maker_fsm_vhd_tst
+# vsim work.e_my_coffee_maker_fsm_vhd_tst 
+# Start time: 21:38:23 on Jul 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.e_my_coffee_maker_fsm_vhd_tst(e_my_coffee_maker_fsm_arch)
+# Loading work.e_my_coffee_maker_fsm(a_my_coffee_maker_fsm)
+# Loading work.e_modulo_counter(a_modulo_counter)
+# Loading altera_mf.altera_mf_components
+# Loading work.e_ram32x4(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.e_add_two_numbers(a_add_two_numbers)
+# Loading work.e_fsmdisplay(a_fsmdisplay)
+# Loading work.e_lmp_count(syn)
+# Loading lpm.lpm_components
+# Loading lpm.lpm_common_conversion(body)
+# Loading lpm.lpm_counter(lpm_syn)
+# Loading work.e_hex7seg(a_hex7seg)
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_modulo_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_modulo_counter
+# -- Compiling architecture a_modulo_counter of e_modulo_counter
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_add_two_numbers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_add_two_numbers
+# -- Compiling architecture a_add_two_numbers of e_add_two_numbers
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_ram32x4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity e_ram32x4
+# -- Compiling architecture SYN of e_ram32x4
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_hex7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_hex7seg
+# -- Compiling architecture a_hex7seg of e_hex7seg
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_lmp_count.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_lmp_count
+# -- Compiling architecture SYN of e_lmp_count
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_fsmdisplay.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_fsmdisplay
+# -- Compiling architecture a_fsmdisplay of e_fsmdisplay
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/e_my_coffee_maker_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_coffee_maker_FSM
+# -- Compiling architecture a_my_coffee_maker_FSM of e_my_coffee_maker_FSM
+# End time: 21:38:31 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:31 on Jul 27,2020
+# vcom -reportprogress 300 -work work C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity e_my_coffee_maker_FSM_vhd_tst
+# -- Compiling architecture e_my_coffee_maker_FSM_arch of e_my_coffee_maker_FSM_vhd_tst
+# ** Warning: C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht(80): (vcom-1236) Shared variables must be of a protected type.
+# ** Warning: C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht(81): (vcom-1236) Shared variables must be of a protected type.
+# End time: 21:38:32 on Jul 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# End time: 21:38:36 on Jul 27,2020, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 2
+# vsim rtl_work.e_my_coffee_maker_fsm_vhd_tst 
+# Start time: 21:38:36 on Jul 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading rtl_work.e_my_coffee_maker_fsm_vhd_tst(e_my_coffee_maker_fsm_arch)
+# Loading rtl_work.e_my_coffee_maker_fsm(a_my_coffee_maker_fsm)
+# Loading rtl_work.e_modulo_counter(a_modulo_counter)
+# Loading altera_mf.altera_mf_components
+# Loading rtl_work.e_ram32x4(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading rtl_work.e_add_two_numbers(a_add_two_numbers)
+# Loading rtl_work.e_fsmdisplay(a_fsmdisplay)
+# Loading rtl_work.e_lmp_count(syn)
+# Loading lpm.lpm_components
+# Loading lpm.lpm_common_conversion(body)
+# Loading lpm.lpm_counter(lpm_syn)
+# Loading rtl_work.e_hex7seg(a_hex7seg)
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_A'.
+# Executing ONERROR command at macro ./wave.do line 13
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_C'.
+# Executing ONERROR command at macro ./wave.do line 14
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_E'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_F'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_H'.
+# Executing ONERROR command at macro ./wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_O'.
+# Executing ONERROR command at macro ./wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_P'.
+# Executing ONERROR command at macro ./wave.do line 19
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_R'.
+# Executing ONERROR command at macro ./wave.do line 20
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_S'.
+# Executing ONERROR command at macro ./wave.do line 21
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_U'.
+# Executing ONERROR command at macro ./wave.do line 22
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_blank'.
+# Executing ONERROR command at macro ./wave.do line 23
+# ** Error: (vish-4014) No objects found matching '/e_my_coffee_maker_fsm_vhd_tst/i1/c_dash'.
+# Executing ONERROR command at macro ./wave.do line 24
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count6
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count3
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 30 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 50 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 70 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 90 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 110 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 130 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 150 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 170 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 190 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 210 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 230 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 250 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 270 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 290 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 310 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 330 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 350 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 370 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 390 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 410 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 430 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 450 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 470 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 490 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 510 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 530 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 550 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 570 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 590 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 610 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 630 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 650 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 670 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 690 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 710 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 730 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 750 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 770 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 790 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 810 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 830 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 850 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 870 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 890 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 910 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 930 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 950 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 970 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 990 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1010 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1030 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1050 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1070 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1090 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1110 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1130 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1150 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1170 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1190 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1210 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1230 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1250 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1270 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1290 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1310 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1330 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1350 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1370 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1390 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1410 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1430 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1450 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1470 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1490 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1510 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1530 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1550 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1570 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1590 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1610 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1630 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1650 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1670 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1690 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1710 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1730 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1750 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1770 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1790 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1810 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1830 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1850 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1870 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1890 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1910 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1930 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1950 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1970 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1990 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2010 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2030 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2050 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2070 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2090 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2110 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2130 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2150 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2170 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2190 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2210 ns  Iteration: 1  Instance: /e_my_coffee_maker_fsm_vhd_tst/i1/I_count1
+# ** Failure: --- END OF SIMULATION ---
+#    Time: 2230 ns  Iteration: 0  Process: /e_my_coffee_maker_fsm_vhd_tst/p_stimulus File: C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht
+# Break in Process p_stimulus at C:/Users/eredj/Downloads/Exercise_Sheet_07_Task_05-20200724/simulation/modelsim/e_my_coffee_maker_FSM.vht line 348
+# End time: 21:40:18 on Jul 27,2020, Elapsed time: 0:01:42
+# Errors: 36, Warnings: 115

@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity e_regn is
+   generic ( n : natural := 8 );
+   port ( slv_R               : in  std_logic_vector(n-1 downto 0);
+          sl_Clock, sl_Resetn : in  std_logic;
+          slv_Q               : out std_logic_vector(n-1 downto 0) );
+end entity e_regn;
+
+architecture a_regn of e_regn is
+
+---- Declaration Part -----------------------------------------------
+
+begin
+
+---- Assignment Part ------------------------------------------------
+
+-- Sequential Process with async. low-active reset
+   p_generic_reg: process (sl_Clock, sl_Resetn)
+   begin
+      if (sl_Resetn = '0') then
+         slv_Q <= (others => '0');
+      elsif (rising_edge(sl_Clock)) then
+         slv_Q <= slv_R;         
+      end if;
+   end process p_generic_reg;
+
+end architecture a_regn;

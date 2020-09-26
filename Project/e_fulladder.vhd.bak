@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity e_fulladder is
+   port ( sl_a, sl_b, sl_ci : in  std_logic;
+          sl_s, sl_co       : out std_logic);
+end entity e_fulladder;
+
+architecture a_fulladder of e_fulladder is
+
+---- Declaration Part -----------------------------------------------
+
+-- Signal Declarations:
+   signal sl_a_xor_b_int : std_logic;
+	
+begin
+
+---- Assignment Part ------------------------------------------------
+
+-- Concurrent Assignments:
+   sl_a_xor_b_int <= sl_a xor sl_b;
+   sl_s <= sl_a_xor_b_int xor sl_ci;
+   sl_co <= (not(sl_a_xor_b_int) and sl_b) or (sl_a_xor_b_int and sl_ci);
+	
+end architecture a_fulladder;

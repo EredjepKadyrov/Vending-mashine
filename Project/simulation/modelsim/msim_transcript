@@ -1,0 +1,94 @@
+# Reading C:/FPGA/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do e_my_coffee_maker_FSM_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/FPGA/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/FPGA/Project/e_my_coffee_maker_FSM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:51 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_my_coffee_maker_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_my_coffee_maker_FSM
+# -- Compiling architecture a_my_coffee_maker_FSM of e_my_coffee_maker_FSM
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_modulo_counter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:52 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_modulo_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_modulo_counter
+# -- Compiling architecture a_modulo_counter of e_modulo_counter
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_add_two_numbers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:52 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_add_two_numbers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity e_add_two_numbers
+# -- Compiling architecture a_add_two_numbers of e_add_two_numbers
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_ram32x4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:52 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_ram32x4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package altera_mf_components
+# -- Compiling entity e_ram32x4
+# -- Compiling architecture SYN of e_ram32x4
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_fsmdisplay.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:52 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_fsmdisplay.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_fsmdisplay
+# -- Compiling architecture a_fsmdisplay of e_fsmdisplay
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_lmp_count.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:52 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_lmp_count.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_lmp_count
+# -- Compiling architecture SYN of e_lmp_count
+# End time: 11:29:52 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/FPGA/Project/e_hex7seg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:53 on Jul 27,2020
+# vcom -reportprogress 300 -93 -work work C:/FPGA/Project/e_hex7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity e_hex7seg
+# -- Compiling architecture a_hex7seg of e_hex7seg
+# End time: 11:29:53 on Jul 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

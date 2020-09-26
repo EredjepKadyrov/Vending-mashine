@@ -1,0 +1,291 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/Project/simulation/modelsim
+Ee_add_two_numbers
+Z1 w1595771190
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/FPGA/Project/e_add_two_numbers.vhd
+Z6 FC:/FPGA/Project/e_add_two_numbers.vhd
+l0
+L5
+V2zP`XQZazSDa;d@R1MPP32
+!s100 ccTcm=EVF[H5eFng2]?EB3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1595842192
+!i10b 1
+Z9 !s108 1595842192.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_add_two_numbers.vhd|
+Z11 !s107 C:/FPGA/Project/e_add_two_numbers.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aa_add_two_numbers
+R2
+R3
+R4
+DEx4 work 17 e_add_two_numbers 0 22 2zP`XQZazSDa;d@R1MPP32
+l19
+L12
+VjEAMg[ePe_B[?D@X0KhG[3
+!s100 Y]J9z?`ORao<_f@YVcI@03
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ee_fsmdisplay
+Z14 w1595706575
+R3
+R4
+R0
+Z15 8C:/FPGA/Project/e_fsmdisplay.vhd
+Z16 FC:/FPGA/Project/e_fsmdisplay.vhd
+l0
+L4
+VY4PP_PFfjaST<AK7GY25U0
+!s100 kk2d=Vz7[ci1R`U;8ADZT2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_fsmdisplay.vhd|
+Z18 !s107 C:/FPGA/Project/e_fsmdisplay.vhd|
+!i113 1
+R12
+R13
+Aa_fsmdisplay
+R3
+R4
+DEx4 work 12 e_fsmdisplay 0 22 Y4PP_PFfjaST<AK7GY25U0
+l39
+L17
+V4P]E1=>>[28oa3lZlE43Q1
+!s100 ;M0KDVU`QFI16_43<3mYV0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ee_hex7seg
+Z19 w1595363261
+R3
+R4
+R0
+Z20 8C:/FPGA/Project/e_hex7seg.vhd
+Z21 FC:/FPGA/Project/e_hex7seg.vhd
+l0
+L4
+Vn4jaO]BJSFJRH4@T[2g420
+!s100 @ReYfoicA0;:ciD>:Dadc3
+R7
+31
+Z22 !s110 1595842193
+!i10b 1
+Z23 !s108 1595842193.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_hex7seg.vhd|
+Z25 !s107 C:/FPGA/Project/e_hex7seg.vhd|
+!i113 1
+R12
+R13
+Aa_hex7seg
+R3
+R4
+DEx4 work 9 e_hex7seg 0 22 n4jaO]BJSFJRH4@T[2g420
+l46
+L10
+VB@I>e><SJIme:C<kQF]M@0
+!s100 @THM_d]cjgEUSnb99FhQf1
+R7
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Ee_lmp_count
+Z26 w1595706937
+R3
+R4
+R0
+Z27 8C:/FPGA/Project/e_lmp_count.vhd
+Z28 FC:/FPGA/Project/e_lmp_count.vhd
+l0
+L42
+V4cN<7A8J>;mIazz8d[3T_3
+!s100 OVz`P33`PK=Uo92Ud08U71
+R7
+31
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_lmp_count.vhd|
+Z30 !s107 C:/FPGA/Project/e_lmp_count.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 11 e_lmp_count 0 22 4cN<7A8J>;mIazz8d[3T_3
+l74
+L53
+V95Mnb;HUgQ;]ZCFY1lE`S3
+!s100 MH7j47bj>W[bRcJ_H[c=d0
+R7
+31
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 1
+R12
+R13
+Ee_modulo_counter
+Z31 w1591802874
+R2
+R3
+R4
+R0
+Z32 8C:/FPGA/Project/e_modulo_counter.vhd
+Z33 FC:/FPGA/Project/e_modulo_counter.vhd
+l0
+L5
+VB[WGFGkGA5o[;@A;d:bD01
+!s100 [_mUo<41Sb58`4MA;OoC83
+R7
+31
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_modulo_counter.vhd|
+Z35 !s107 C:/FPGA/Project/e_modulo_counter.vhd|
+!i113 1
+R12
+R13
+Aa_modulo_counter
+R2
+R3
+R4
+DEx4 work 16 e_modulo_counter 0 22 B[WGFGkGA5o[;@A;d:bD01
+l21
+L14
+V9KQlgG5H9J9dJ5gBIhO[Z1
+!s100 jEH?[RT`bYo2BTnj;OEBK3
+R7
+31
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Ee_my_coffee_maker_fsm
+Z36 w1595786632
+R2
+R3
+R4
+R0
+Z37 8C:/FPGA/Project/e_my_coffee_maker_FSM.vhd
+Z38 FC:/FPGA/Project/e_my_coffee_maker_FSM.vhd
+l0
+L5
+VO?gW]B_neGbMZ=O3_Xj:h1
+!s100 >CUcjTnEjNciZe>56:CJP3
+R7
+31
+R8
+!i10b 1
+Z39 !s108 1595842191.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_my_coffee_maker_FSM.vhd|
+Z41 !s107 C:/FPGA/Project/e_my_coffee_maker_FSM.vhd|
+!i113 1
+R12
+R13
+Aa_my_coffee_maker_fsm
+R2
+R3
+R4
+DEx4 work 21 e_my_coffee_maker_fsm 0 22 O?gW]B_neGbMZ=O3_Xj:h1
+l166
+L28
+ViJHdECz3JE_QOomDMRNG[2
+!s100 Te7[z=QD?c<Ckk5@NTPc?1
+R7
+31
+R8
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Ee_ram32x4
+Z42 w1595784667
+Z43 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+R3
+R4
+R0
+Z44 8C:/FPGA/Project/e_ram32x4.vhd
+Z45 FC:/FPGA/Project/e_ram32x4.vhd
+l0
+L43
+V`kb_iFEkR1TCJUiDIHelV2
+!s100 E7A^1E<Bij^D9HR6Y?zgD3
+R7
+31
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-93|-work|work|C:/FPGA/Project/e_ram32x4.vhd|
+Z47 !s107 C:/FPGA/Project/e_ram32x4.vhd|
+!i113 1
+R12
+R13
+Asyn
+R43
+R3
+R4
+DEx4 work 9 e_ram32x4 0 22 `kb_iFEkR1TCJUiDIHelV2
+l59
+L55
+V0j?<nYGeQe1Y5aX5V>SE;2
+!s100 N5PiE0ILImh^PiKJY>7fN0
+R7
+31
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13
